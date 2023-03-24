@@ -1,0 +1,14 @@
+db_file: "bot.db"
+bot_url: "https://t.me/PoketeriyBot"
+
+messages:
+  responses:
+    start: "Привет, чтобы сохранять ссылки в Pocket мне необходимо получить доступ. Перейди по сслыку:\n%s"
+    already_auth: "Ты уже авторизирован. Присылай ссылку для сохранения в Pocket."
+    saved_successfully: "Ссылка успешно сохранена."
+    unknown_command: "Я не знаю такой команды."
+  errors:
+    default: "Произшла неизвестная ошибка."
+    invalid_url: "Это невалдиная ссылка"
+    unauthorized: "Ты не авторизирован. Используй команду /start"
+    unable_to_save: "Не удалось сохранить ссылку. Попробуй еще раз."
